@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('deps') {
       steps {
-        sh 'docker -v'
+        bat 'docker ps'
       }
     }
   }
